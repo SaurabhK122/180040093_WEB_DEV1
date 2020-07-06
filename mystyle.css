@@ -1,0 +1,172 @@
+html{
+    box-sizing: border-box
+}
+
+body{
+    background-color: #f2f7f7;
+    margin: 0px;
+}
+
+.Saurabh{
+    text-shadow: 2px 2px 2px rgba(95, 228, 199, 0.555);
+    text-align: center;
+    font-family: Courier Thin, serif;
+    color:#70582d;
+}
+
+.about-me{
+    text-shadow: 1px 1px 1px rgba(209, 208, 154, 0.603);
+    text-align: left;
+    color: black;
+
+}
+
+.menu{
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+    width: 20.75%;
+    float: left;
+    border: 1px solid white;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    width: 49%;
+    float: left;
+    border: 1px solid white;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+    width: 47%;
+    float: left;
+    border: 1px solid white;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    width: 49%;
+    float: left;
+    border: 1px solid white;
+    margin-top: 150px;
+}
+
+.container {
+    padding: 0 16px;
+    border-bottom: 6px solid red;
+}
+
+.container::after, .column:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.intro{
+    width: 24.5%;
+    float: left;
+    border: 1px solid white;
+    padding: 9px;
+    background-color: #faffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: Arial Thin, sans-serif;
+    border-bottom: 6px solid red;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #d6151f;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;     
+    background: #e4e3d5;
+  }
+  
+  a:active {
+    background: #e4e3d5;
+    color: #e4e3d5;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+footer{
+    margin-top: 1100px;
+    background-color: #5e5b55;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}

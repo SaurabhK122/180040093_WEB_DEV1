@@ -6,99 +6,27 @@
         <meta name="author" content="Saurabh">
         <meta name="viewport" content="width=device-width, initial scale=1.0" >
         <title>About Me</title>
-        <style>
 
-            html{
-                box-sizing: border-box
-            }
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-            body{
-                background-color: #f2f7f7;
-                margin: 0px;
-            }
-
-            .Saurabh{
-                text-align: center;
-                font-family: Courier Thin, serif;
-                color:#70582d;
-            }
-
-            .about-me{
-                text-align: left;
-                color: black;
-            }
-
-            .menu{
-                padding: 15px;
-                margin-left: 15px;
-            }
-
-            .card {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                margin-left: 15px;
-                width: 20.4%;
-                float: left;
-                border: 1px solid white;
-            }
-
-            .card1 {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                margin-left: 30px;
-                width: 49%;
-                float: left;
-                border: 1px solid white;
-            }
-
-            .card2 {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                margin-left: 15px;
-                width: 47%;
-                float: left;
-                border: 1px solid white;
-            }
-
-            .card3 {
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                margin-left: 30px;
-                width: 49%;
-                float: left;
-                border: 1px solid white;
-                margin-top: 150px;
-            }
-
-            .container {
-                padding: 0 16px;
-            }
-
-            .container::after, .column:after {
-                content: "";
-                clear: both;
-                display: table;
-            }
-
-            .intro{
-                width: 25%;
-                float: left;
-                border: 1px solid white;
-                padding: 9px;
-                background-color: #faffff;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                font-family: Arial Thin, sans-serif;
-            }
-
-            footer{
-                margin-top: 1100px;
-                background-color: #5e5b55;
-                text-align: center;
-                padding: 20px;
-                color: white;
-            }
-
-        </style>
     </head>
     <body>
 
         <!-- Everrything from here on will be displayed on the website-->
+
+        <ul>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn"><i class="fas fa-bars"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <li><a href="#contact">CONTACT</a></li>
+              <li><a href="#home">HOME</a></li>
+            </li>
+          </ul>
 
         <h1 class ="Saurabh">Saurabh Khandelwal</h1>
 
@@ -110,7 +38,7 @@
 
         <div class ="intro">
             <h2 class ="about-me">About Me</h2>
-            <p>I am a person who is positive about every aspect of life. 
+            <p style =  "font-size: 16.35px;">I am a person who is positive about every aspect of life. 
             There are many things I like to do, to see, and to experience.
             I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen.
             I like to look at the clouds in the sky with a blank mind, I like to do 
